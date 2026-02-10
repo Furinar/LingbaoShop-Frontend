@@ -27,7 +27,7 @@ coverage
 *.tsbuildinfo
 
 .eslintcache
-
+.settings.local.json
 # Cypress
 /cypress/videos/
 /cypress/screenshots/
@@ -37,3 +37,5 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+
+mock/

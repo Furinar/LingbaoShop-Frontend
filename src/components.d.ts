@@ -11,8 +11,18 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    AddShareCodeModal: typeof import('./components/AddShareCodeModal.vue')['default']
+    AnimatedGroup: typeof import('./components/ui/AnimatedGroup.vue')['default']
+    AppFooter: typeof import('./components/AppFooter.vue')['default']
+    AppHeader: typeof import('./components/AppHeader.vue')['default']
+    DotBackground: typeof import('./components/ui/DotBackground.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    WelcomeItem: typeof import('./components/WelcomeItem.vue')['default']
+    ShareCodeCard: typeof import('./components/ShareCodeCard.vue')['default']
+    ShimmerButton: typeof import('./components/ui/ShimmerButton.vue')['default']
+    SparklesText: typeof import('./components/ui/SparklesText.vue')['default']
+    StatsBar: typeof import('./components/StatsBar.vue')['default']
+    TextGenerateEffect: typeof import('./components/ui/TextGenerateEffect.vue')['default']
+    VanishingInput: typeof import('./components/ui/VanishingInput.vue')['default']
   }
 }
