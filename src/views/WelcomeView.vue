@@ -33,7 +33,7 @@ onMounted(() => {
     <div class="welcome__container">
       <Transition name="fade-up">
         <div v-if="showLogo" class="welcome__logo-wrap">
-          <img src="/Lingbao-Shop.svg" alt="灵宝集市"
+          <img src="/Lingbao-Shop.png" alt="灵宝集市"
             class="welcome__logo" />
         </div>
       </Transition>

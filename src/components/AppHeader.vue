@@ -19,7 +19,7 @@ function handleSort(sort: SortType) {
     <div class="header__inner">
       <div class="header__brand">
         <img
-          src="/Lingbao-Shop.svg"
+          src="/Lingbao-Shop.png"
           alt="灵宝集市"
           class="header__logo"
         />

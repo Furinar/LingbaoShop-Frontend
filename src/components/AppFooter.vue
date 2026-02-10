@@ -6,7 +6,7 @@
     <div class="footer__inner">
       <div class="footer__brand">
         <img
-          src="/Lingbao-Shop.svg"
+          src="/Lingbao-Shop.png"
           alt="灵宝集市"
           class="footer__logo"
         />
