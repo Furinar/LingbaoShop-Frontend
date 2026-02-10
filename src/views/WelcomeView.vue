@@ -66,7 +66,7 @@ onMounted(() => {
 
       <Transition name="fade">
         <p v-if="showFooter" class="welcome__footer">
-          v0.0.1 · 仅供学习交流使用
+          v0.1.1 · 仅供学习交流使用
         </p>
       </Transition>
     </div>
